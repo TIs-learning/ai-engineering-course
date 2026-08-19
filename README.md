@@ -1,5 +1,5 @@
 # Roadmap AI Engineer (dari Nol hingga Job-Ready)
-
+![Roadmap](blueprint.png)
 ---
 
 ## FASE 0: Persiapan (1-2 minggu)
