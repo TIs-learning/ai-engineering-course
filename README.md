@@ -1,4 +1,4 @@
-# Roadmap AI Engineer (dari Nol hingga Job-Ready)
+# Roadmap AI Engineer
 ![Roadmap](blueprint.png)
 ---
 
