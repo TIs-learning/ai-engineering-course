@@ -6,11 +6,14 @@
 | Phase | Lesson | Link |
 |-------|-------|-------|
 | **Foundation 1** | **Python, Maths, SQL** | **[Foundation 1](#foundation-1)**|
-| **Foundation 2** | **Software, Cloud, AI Coding, DSA** | **[Foundation 2](#foundation-2)**|
+| **Phase 0** | **Software, Cloud, AI Coding, DSA** | **[Phase 0](#foundation-2)**|
+| **Phase 1** | **Machine Learning** | **[Phase 1](#Phase-1)**|
+| **Phase 2** | **Deep Learning** | **[Phase 2](#Phase-2)**|
+| **Phase 3** | **Specialization** | **[Phase 3](#Phase-3)**|
 
 ## Syllabus
 
-## Foundation 1
+## Foundation-1
 
 ### [Module 1: Python for AI](https://github.com/TIs-learning/Python)
 - Python fundamental
@@ -52,181 +55,279 @@
 - Databases Every AI Engineer Should Touch
 - Real-World SQL Skills
 
----
+## Foundation-2
 
-## Foundation 2
+### [Modul 1: Software Essentials]()
+- Version Control
+- Development Environment
+- Working with APIs & Services
 
-### Materi eksplisit
+### [Modul 2: Cloud Fundamental]()
+- Cloud Basics
+- Core Cloud Services
+- Compute Fundamentals
+- Storage Fundamentals
+- Networking Basics
+- Databases in the Cloud
+- Identity & Security
+- Containers & Orchestration (Awareness)
+- Cloud for AI Workloads
+- Cost & Resource Management
+- DevOps & Automation Basics
+- Cloud Providers Awareness
 
-**Python untuk AI Engineering:**
-- NumPy, Pandas untuk manipulasi data
-- Virtual environment (`venv`/`conda`), dependency management (`pip`, `poetry`)
-- Testing dasar (pytest), typing (`type hints`), Pydantic untuk validasi data
+### [Modul 3: AI Coding]()
+- AI-Assisted Development Basics
+- Prompting for Code
+- Reading & Validating AI Code
+- Refactoring with AI
+- Debugging with AI
+- AI for Learning Codebases
+- AI for Data & ML Code
+- AI for Automation
+- AI Coding Tools Awareness
+- Limitations of AI Coding
 
-**Fondasi ML/DL (secukupnya, bukan untuk melatih model besar tapi untuk paham cara kerja & debug):**
-- Bagaimana neural network belajar (forward/backward pass, loss, gradient descent) — level konsep, tidak perlu implementasi manual mendalam
-- Bagaimana Transformer bekerja: tokenization, embedding, self-attention, positional encoding — ini WAJIB dipahami karena semua LLM berbasis ini
-- Perbedaan model architecture: encoder-only (BERT), decoder-only (GPT-style), encoder-decoder (T5)
-- Konsep training vs inference, parameter, context window, temperature, top-p/top-k sampling
+## Phase-1
 
-### Sumber
-- "Deep Learning Specialization" Andrew Ng (course 5: Sequence Models, cukup sampai bagian Transformer)
-- Artikel "The Illustrated Transformer" - Jay Alammar
-- Video "Let's build GPT" - Andrej Karpathy (YouTube)
+### [Modul 1: EDA](https://github.com/TIs-learning/eda)
+- Data Wrangling
+- Data Visualization
+- Interpretation data
 
-### Project (menggabungkan materi fase ini)
-- Buat notebook yang menjelaskan step-by-step bagaimana teks diubah jadi token, lalu jadi embedding, sampai bagaimana attention score dihitung untuk kalimat sederhana (pakai library `tiktoken` untuk tokenization, dan hitung attention secara manual dengan NumPy untuk 1 kalimat pendek).
+### [Modul 2: Feature Preprocessing & Engineering]()
+- What Feature Engineering Really Is
+- Understanding Data Before Engineering
+- Missing Values Handling
+- Encoding Categorical Variables
+- Feature Scaling & Normalization
+- Handling Outliers
+- Feature Transformation
+- Feature Creation (High-Impact Section)
+- Date & Time Feature Engineering
+- Text Feature Engineering (Intro Level)
+- Feature Selection (Not Algorithms)
+- Feature Engineering Pipelines
 
----
+### [Modul 3: Machine Learning Fundamental](https://github.com/TIs-learning/machine-learning)
+- What Machine Learning Really Is
+- Types of Machine Learning
+- ML Problem Formulation
+- Train / Validation / Test Split
+- Model Concept (Very Important)
+- Loss Functions (Optimization Target)
+- Evaluation Metrics (Conceptual)
+- Bias, Variance Tradeoff 
+- End-to-End ML Workflow
+- Common ML Pitfalls (Must-Know)
 
-## FASE 2: LLM API & Prompt Engineering (3-4 minggu)
+### [Modul 4: Machine Learning Advanced Concept]()
+- Hyperparameter Optimization
+- Model Evaluation & Validation
+- Imbalanced Data Handling
+- Ensemble Theory (Beyond Algorithms)
+- Interpretability & Explainability
+- Model Selection & Comparison
+- Scaling Machine Learning
 
-### Materi eksplisit
-- Cara kerja LLM API: Anthropic API, OpenAI API, Google Gemini API (request/response format, streaming, function calling/tool use)
-- Prompt engineering: zero-shot, few-shot, chain-of-thought, role prompting, system prompt vs user prompt
-- Structured output: memaksa model mengeluarkan JSON, penggunaan schema (Pydantic + function calling)
-- Context management: cara handle context window terbatas, summarization untuk percakapan panjang
-- Cost & latency awareness: token counting, memilih model sesuai kebutuhan (kecil vs besar)
+### [Modul 5: End to End Projects]()
+- Recommendation Systems
+- Prediction & Forecasting
+- Classification Systems
+- Computer Vision (Classical ML / Intro DL)
+- NLP-Based Systems
+- Anomaly & Risk Detection
+- Customer & Business Intelligence
+- Healthcare & Social Impact
+- Famous “Interview Classic” Projects
 
-### Sumber
-- Dokumentasi resmi: docs.anthropic.com (prompt engineering guide), platform.openai.com/docs
-- "Prompt Engineering Guide" - promptingguide.ai
-- Course "ChatGPT Prompt Engineering for Developers" - DeepLearning.AI
+## Phase-2
 
-### Project (menggabungkan materi fase ini)
-**CLI Assistant dengan Structured Output**
-- Buat aplikasi command-line yang menerima input natural language (misal "catat pengeluaran saya 50rb untuk makan siang")
-- Gunakan tool/function calling agar model mengeluarkan output terstruktur (JSON tervalidasi Pydantic: kategori, jumlah, tanggal)
-- Simpan hasil parsing ke file CSV/SQLite
-- Tambahkan penanganan error saat model gagal mengeluarkan format yang benar (retry logic)
+### [Module 1: Pengantar NLP]()
+- Text Preprocessing
+- Text Representation
+- Traditional Models
+- NLP Pipeline
 
----
+### [Module 2: Deep Learning]()
+- Foundations NN
+- Optimizing NN
+    - Optimization Core
+    - Initialization & Stability
+    - Training Practice (very important in 2026)
+- CNN & Transfer Learning
+    - CNN Core
+    - Modern CNN Architecture Ideas
+    - Transfer Learning
+    - Vision Transformers (ViT) & Hybrid Vision
+- Sequence Models
+    - RNN Family
+- Seq2Seq Models
+    - Seq2Seq Foundation
+    - Named Attention Mechanisms
+    - Transformer Architecture (Entire, End-to-End)
+    - Transformer Variants (high-level)
+- Unsupervised DL
+    - Representation Learning
+    - Generative Adversarial Networks (GANs) — Missing earlier
 
-## FASE 3: RAG (Retrieval-Augmented Generation) (4-5 minggu)
+### [Modul 3: Practical Deep Learning]()
+- NLP using Deep Learning, Pytorch
 
-### Materi eksplisit
-- Kenapa RAG dibutuhkan (mengatasi keterbatasan knowledge cutoff & halusinasi)
-- Embedding model: cara kerja text embedding, cosine similarity
-- Vector database: ChromaDB, FAISS, Pinecone, atau Weaviate (indexing, similarity search, metadata filtering)
-- Chunking strategy: fixed-size, semantic chunking, overlap, kenapa ukuran chunk penting
-- Document loading & parsing: PDF, HTML, Markdown (library: `unstructured`, `PyPDF2`, `LangChain document loaders`)
-- Reranking: menggunakan reranker model untuk memperbaiki hasil retrieval
-- Framework: LangChain atau LlamaIndex (pahami konsepnya, jangan terlalu bergantung — banyak perusahaan mulai pakai pendekatan lebih ringan/manual)
-- Evaluasi RAG: metrik retrieval (precision@k, recall@k), evaluasi jawaban (faithfulness, relevance) pakai tools seperti RAGAS
+## Phase-3
 
-### Sumber
-- "Building RAG Applications" - DeepLearning.AI (short course)
-- Dokumentasi LangChain & LlamaIndex
-- Artikel Pinecone Learning Center tentang vector search
+### [Modul 1: LLM Literacy]()
+- LLM 101
+    - What Is a Large Language Model (Conceptual Layer)
+    - Transformer Architecture (System Layer)
+    - Tokenization & Embeddings (Representation Layer)
+    - Training Paradigm (Learning Layer)
+    - Inference Mechanics (Runtime Layer)
+    - Model Ecosystem & Types
+    - Evaluation & Benchmarks
+    - Limitations & Failure Modes
+- Prompt Engineering
+    - Mental Model of Prompting (Foundation Layer)
+    - Prompt Structure & Anatomy
+    - Instruction Design Patterns
+    - Structured Output Prompting
+    - Prompt Robustness & Reliability
+    - Prompt Evaluation & Metrics
+    - Security & Safety in Prompting
+- Context Engineering
+    - Introduction to Context Engineering
+    - What Constitutes Context
+    - Techniques to Manage Context
+        - Context Selection
+        - Context Compression
+        - Context Structuring
+        - Token Budget Management
+        - Handling Context Failure
 
-### Project (menggabungkan materi fase ini)
-**Chatbot RAG untuk Dokumen Internal**
-- Kumpulkan 20-30 dokumen (PDF/Markdown) tentang topik tertentu (misal dokumentasi produk atau kumpulan artikel)
-- Bangun pipeline: load → chunk → embed → simpan ke vector database
-- Buat sistem retrieval + generation: user tanya, sistem ambil chunk relevan, LLM jawab berdasarkan konteks itu saja
-- Tambahkan reranking untuk memperbaiki kualitas retrieval
-- Evaluasi sistem dengan minimal 15 pasang pertanyaan-jawaban, ukur precision@k dan faithfulness
-- Deploy sebagai web app sederhana (Streamlit/Gradio)
+### [Modul 2: AI Application Development]()
+- Orchestration
+    - Introduction to Orchestration
+    - Core Orchestration Patterns
+        - Sequential Workflows
+        - Conditional Routing
+        - Parallel Execution
+        - Looping & Retry Patterns
+    - Structured Output
+    - Tool Integration & Function Calling
+- Vector Database
+    - Introduction to Vector Databases
+    - Embeddings & Vector Space Fundamentals
+    - Ecosystem & Tools
+- RAG
+    - Introduction to RAG
+    - Core RAG Pipeline
+    - Data Preparation & Indexing
+    - Retrieval Strategies
+    - Context Construction in RAG
+    - Advanced RAG Patterns
+    - Evaluation & Metrics
+    - Failure Modes of RAG
+- Memory
+    - Introduction to Memory in AI Systems
+    - Types of Memory
+        - Short-Term Memory
+        - Long-Term Memory
+        - Working / Execution Memory
+    - Memory Storage Mechanisms
+    - Memory Retrieval Strategies
+    - Memory Compression & Pruning
+    - Memory in Agentic Systems
+    - Memory Failure Modes
+    - Tools & Frameworks for Memory Management
+        - Framework-Level Tools
+        - Storage Backends
+        - Caching & Session Management
+        - Observability & Debugging
+- Fine Tuning (Light)
+    - Fine-Tuning Fundamentals
+    - Pretraining vs Fine-Tuning
+    - Supervised Fine-Tuning (SFT)
+    - Preference-Based Tuning (RLHF, DPO – Overview)
+    - Parameter-Efficient Fine-Tuning (PEFT)
+    - LoRA (Low-Rank Adaptation)
+    - QLoRA (Quantized LoRA)
+    - Data Preparation for Fine-Tuning
+    - Fine-Tuning vs RAG vs Prompt Engineering
+    - Evaluation of Fine-Tuned Models
+    - Overfitting & Catastrophic Forgetting
+    - Adapter Management & Versioning
+    - Deployment of Fine-Tuned Models
+- AI Automation
+    - Introduction to AI Automation
+    - Automation Design Patterns
+        - Trigger-Based Automation
+        - Sequential Task Automation
+        - Conditional Automation
+        - Loop & Retry Automation
+        - Tool Integration for Automation
+        - Workflow Orchestration Tools
 
----
+### [Modul 3: Agentic AI]()
+- Planning & Reasonning
+    - Foundations of Agentic Planning
+    - Reasoning Patterns in LLM Systems
+    - Single-Agent Planning
+    - Task Decomposition Strategies
+    - Iterative Reasoning Loops
+    - Tool-Aware Reasoning
+    - State-Aware Planning
+    - Planning Constraints & Control
+    - Failure Modes in Planning Systems
+    - Evaluation of Reasoning Systems
+- State Memory
+- Tool Use
+- MCP & Other Protocols
+    - Introduction to Model Context Protocol (MCP)
+    - Tool Interface Standardization
+    - Client–Server Architecture for Agents
+    - Capability Discovery
+    - Security & Isolation
+    - Other Relevant Protocols & Standards
+- Agentic AI Frameworks
 
-## FASE 4: AI Agents (4-6 minggu)
-
-### Materi eksplisit
-- Konsep agent: reasoning loop (ReAct pattern - reason + act), planning, tool use
-- Multi-step tool calling: agent memutuskan kapan dan tool apa yang dipanggil
-- Memory pada agent: short-term (conversation history) vs long-term (vector store)
-- Multi-agent system: bagaimana beberapa agent berkolaborasi (orchestrator-worker pattern)
-- Guardrails & safety: validasi output, mencegah prompt injection, membatasi aksi agent yang berbahaya
-- Framework: LangGraph, CrewAI, atau Anthropic's agent SDK (pahami minimal satu secara mendalam)
-- Model Context Protocol (MCP): standar untuk menghubungkan agent ke tools/data eksternal
-
-### Sumber
-- Dokumentasi LangGraph, artikel Anthropic "Building Effective Agents"
-- Course "AI Agents in LangGraph" - DeepLearning.AI
-- Dokumentasi Model Context Protocol (modelcontextprotocol.io)
-
-### Project (menggabungkan materi fase ini)
-**Agent Otomatisasi Riset**
-- Buat agent yang menerima topik riset dari user, lalu secara otomatis: mencari informasi (tool web search), membaca & merangkum beberapa sumber, menyusun laporan terstruktur
-- Tambahkan tool tambahan (misal kalkulator, akses database internal dari project RAG di fase 3)
-- Implementasikan guardrail sederhana (validasi supaya agent tidak mengakses tool di luar yang diizinkan)
-- Log setiap langkah reasoning agent untuk debugging
-
----
-
-## FASE 5: Fine-tuning & Model Kecil (Opsional tapi bernilai, 3-4 minggu)
-
-### Materi eksplisit
-- Kapan fine-tuning dibutuhkan vs cukup dengan prompting/RAG
-- Parameter-Efficient Fine-Tuning: LoRA, QLoRA (konsep + praktik)
-- Dataset preparation untuk fine-tuning (format instruction-following)
-- Fine-tuning model open-source kecil (Llama, Mistral, atau Qwen) pakai HuggingFace `transformers` + `peft`
-- Quantization dasar (menjalankan model besar di hardware terbatas)
-
-### Sumber
-- HuggingFace course (huggingface.co/learn)
-- Dokumentasi `peft` library dari HuggingFace
-
-### Project (menggabungkan materi fase ini)
-- Fine-tune model open-source kecil (misal Mistral-7B atau Llama-3-8B) dengan LoRA untuk tugas spesifik (misal menjawab dalam gaya/format tertentu), lalu bandingkan hasilnya dengan pendekatan prompting biasa pada model yang sama.
-
----
-
-## FASE 6: LLMOps & Production (4-5 minggu)
-
-### Materi eksplisit
-- API serving: FastAPI untuk membungkus aplikasi AI jadi service
-- Containerization: Docker
-- Observability khusus LLM: logging prompt & response, tracing (LangSmith, Langfuse, atau Weights & Biases Weave)
-- Evaluasi berkelanjutan: automated eval pipeline, A/B testing prompt
-- Caching (mengurangi biaya panggilan API berulang), rate limiting
-- Cost monitoring & optimization (memilih model sesuai task, prompt caching)
-- CI/CD dasar (GitHub Actions)
-- Keamanan: prompt injection defense, PII redaction, content moderation (guardrails library seperti Guardrails AI atau NeMo Guardrails)
-
-### Sumber
-- Dokumentasi Langfuse/LangSmith
-- "LLMOps" course (DeepLearning.AI atau Coursera)
-- Blog engineering perusahaan (Anthropic, OpenAI, Netflix Tech Blog tentang LLM in production)
-
-### Project (menggabungkan materi fase ini)
-**Produksi-kan Agent RAG dari Fase 3-4**
-- Bungkus chatbot RAG + agent jadi REST API dengan FastAPI
-- Tambahkan tracing lengkap (setiap request, retrieval, tool call, response tercatat)
-- Implementasikan guardrail keamanan (deteksi prompt injection sederhana, redaksi data sensitif)
-- Containerize dengan Docker, setup CI/CD sederhana
-- Buat dashboard monitoring biaya (token usage per request) dan kualitas (skor evaluasi otomatis)
-- Deploy ke cloud (Railway, Render, atau cloud provider pilihan)
-
----
-
-## FASE 7: Portfolio & Persiapan Kerja (ongoing)
-
-### Materi eksplisit
-- System design untuk AI product (bagaimana menjawab "design a customer support AI agent for X")
-- Studi kasus AI engineering dari perusahaan (Anthropic, OpenAI, Perplexity, blog engineering startup AI)
-- Latihan coding interview dasar (Python, struktur data umum)
-- Pemahaman trade-off bisnis: kapan pakai model besar mahal vs model kecil murah, kapan RAG vs fine-tuning vs prompting saja
-
-### Project Capstone Akhir
-Gabungkan semua fase jadi satu produk AI end-to-end:
-1. Pilih masalah nyata (misal: asisten AI untuk industri tertentu — customer support, riset, atau produktivitas)
-2. Bangun RAG untuk knowledge base spesifik
-3. Tambahkan agent dengan minimal 3 tools berbeda
-4. Evaluasi otomatis dengan metrik jelas
-5. Deploy production-ready dengan monitoring, guardrail, dan cost tracking
-6. Dokumentasikan arsitektur sistem (diagram) dan tulis artikel di Medium/LinkedIn
-
-Portfolio minimal 3 project seperti di atas, terdokumentasi rapi di GitHub dengan README yang jelas.
-
----
-
-## Estimasi Total Waktu
-5-8 bulan dengan belajar konsisten 15-20 jam/minggu.
-
-## Urutan Belajar Ringkas
-Fase 0 → 1 (fondasi) → 2 (prompt & API) → 3 (RAG) → 4 (Agent) → 5 (opsional: fine-tuning) → 6 (production) → 7 (paralel dengan job hunting)
-
-## Catatan Penting
-Fondasi di Fase 1 sengaja dibuat ringkas dibanding roadmap ML Engineer — cukup untuk paham cara kerja model, bukan untuk melatih model dari nol. Kalau nanti kamu ingin mendalami training/fine-tuning model besar secara serius, itu baru masuk ranah ML Engineering/Research yang lebih dalam.
+### [Modu 4: LLMOps]()
+- UX & Product Design
+    - AI Interaction Design
+    - Trust & Transparency
+    - Latency & Responsiveness
+    - Feedback & Control
+- Deployment
+    - Deployment Architectures
+    - Backend Deployment
+    - Containerization & Infrastructure
+    - Model Serving (Self-Hosted)
+    - Scaling & Performance
+    - CI/CD for AI Systems
+- Observabiity
+    - Request & Trace Logging
+    - Token, Cost & Latency Monitoring
+    - Workflow-Level Monitoring
+    - Quality & Behavior Monitoring
+    - Alerting & Incident Response
+- Safety & Guardrails
+    - Input Safety
+    - Output Filtering
+    - Tool Safety
+    - Prompt Injection & Jailbreak Defense
+    - Policy & Usage Controls
+    - Human-in-the-Loop Safeguards
+- Governance
+    - Data Governance
+    - Access & Identity Management
+    - Model & Prompt Governance
+    - Compliance & Regulatory Considerations
+    - Risk Management & Documentation
+    - Auditability & Transparency
+- Manage AI Platforms
+    - What Managed AI Platforms Provide
+    - Core Capabilities
+    - Deployment & Scaling Features
+    - Security & Compliance
+    - Popular Managed AI Platforms
+    - When to Use Managed Platforms
+    - Trade-Offs
