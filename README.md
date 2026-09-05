@@ -3,10 +3,10 @@
 ---
 
 ## 🚀 Quick Link 
-| Phase | Lesson | |Link|
-|-------|-------|-------|-------|
-| **Foundation 1** | **Python, Maths, SQL** | **[Foundation 1](#foundation-1)|
-| **Foundation 2** | **Software, Cloud, AI Coding, DSA** | **[Foundation 2](#foundation-2)|
+| Phase | Lesson | Link |
+|-------|-------|-------|
+| **Foundation 1** | **Python, Maths, SQL** | **[Foundation 1](#foundation-1)**|
+| **Foundation 2** | **Software, Cloud, AI Coding, DSA** | **[Foundation 2](#foundation-2)**|
 
 ## Syllabus
 
