@@ -2,19 +2,59 @@
 ![Roadmap](blueprint.png)
 ---
 
-## FASE 0: Persiapan (1-2 minggu)
+## 🚀 Quick Link 
+| Phase | Lesson | |Link|
+|-------|-------|-------|-------|
+| **Foundation 1** | **Python, Maths, SQL** | **[Foundation 1](#foundation-1)|
+| **Foundation 2** | **Software, Cloud, AI Coding, DSA** | **[Foundation 2](#foundation-2)|
 
-### Materi
-- Python 3.11+, Git & GitHub, command line dasar
-- REST API concept: HTTP method, JSON, status code, endpoint, headers, authentication (API key/token)
-- Async programming di Python (`async`/`await`, kenapa dibutuhkan untuk panggil API)
+## Syllabus
 
-### Project
-- Buat script Python yang memanggil API publik apa saja (misal API cuaca) dan tampilkan hasilnya dengan rapi.
+## Foundation 1
+
+### [Module 1: Python for AI](https://github.com/TIs-learning/Python)
+- Python fundamental
+- Data structures
+- Pythonic thinking
+- Object Oriented Programming
+- Error handling and debugging
+- Modules, Packages and Environment
+- File handling and Serialization
+- Data visualization
+- Standard Library
+- Asynchronous and Parallel python
+- Other library
+
+### [Module 2: Mathematics for AI](https://github.com/TIs-learning/fundamental-math)
+- Linear Algebra
+- Calculus (Differential and Optimization Concepts)
+- Probablity Theory
+- Statistics
+- Information Theory
+- Geometry & Distance Measures
+- Probability + Linear Algebra in ML
+- Matrix Factorization & Decomposition (High ROI)
+
+### [Module 3: SQL Database](https://github.com/TIs-learning/SQL)
+- SQL Fundamentals
+- Table Design & Schema Basics
+- Core Querying (Absolute Must)
+- Filtering & Conditions
+- Aggregations & Grouping
+- Joins
+- Subqueries & CTEs
+- Window Functions
+- Data Cleaning & Transformation
+- Performance & Optimization (High ROI)
+- Analytical Thinking with SQL
+- SQL Dialects Awareness
+- SQL + Python Integration
+- Databases Every AI Engineer Should Touch
+- Real-World SQL Skills
 
 ---
 
-## FASE 1: Fondasi Python & Dasar ML/DL secukupnya (4-5 minggu)
+## Foundation 2
 
 ### Materi eksplisit
 
